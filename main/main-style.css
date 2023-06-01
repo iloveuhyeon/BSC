@@ -1,0 +1,11 @@
+.background{
+    background-image: url("배경.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topBar{
+    width: 533px;
+    height: 29px;
+    background-color: white;
+}
