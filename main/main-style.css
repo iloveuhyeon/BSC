@@ -1,11 +1,33 @@
 .background{
-    background-image: url("배경.svg");
+    margin: 0;
+    background-image: url(배경.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 
 .topBar{
-    width: 533px;
-    height: 29px;
+    width: cover;
+    height: 95px;
     background-color: white;
+}
+
+.topBarLogo{
+    float: left;
+    margin-top: 11px;
+    margin-left: 20%;
+    width: 70px;
+    margin-right: 10px;
+}
+
+.topBarLogoName{
+    float: left;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 28px;
+}
+
+.mainContentLine1{
+    font-size: 100px;
 }
