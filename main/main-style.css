@@ -23,30 +23,22 @@ a {
 .topBarLogo{
     float: left;
     margin-top: 11px;
-    margin-left: 20%;
+    margin-left: 170px;
     width: 70px;
     margin-right: 10px;
 }
 
-.topBarLogoName{
-    float: left;
-    color: black;
-    font-weight: bold;
-    font-size: 25px;
-    margin-top: 28px;
-}
-
 .topBarOp{
     font-size: 20px;    
-    margin-right: 20%;
+    margin-right: 10%;
     padding-top: 33px;
 }
 
 .topBarContect{
+    
     float: right;
     color: black;
     font-weight: bold;
-
 }
 
 .topBarInfo{
@@ -99,12 +91,25 @@ a {
 }
 
 .mainConTentContect{
-    background-image: url(imgdir/지금바로상담하기.svg);
-    width: 500px;
+    background-color: #5a2ed1;
+    margin-left : 50px;
+    width: 550px;
     height: 90px;
     border-radius: 5px;
-    margin-left: 3%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
+.mainContentContectContentLink{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size : 35px;
+    text-align: center;
+}
+.mainContentcontectContentLink:hover {
+    text-decoration: underline;
+  }
 
 .mainConTentContectContent{
     font-size: 35px;
@@ -128,5 +133,220 @@ a {
 
 .mainContent1comment2{
     font-size: 30px;
-    text-align:;
+    margin-left : 280px;
+}
+
+.letterUnderLine1{
+    text-decoration: underline;
+    text-decoration-thickness: 10px;
+    text-decoration-color: blue; /* 원하는 색상으로 변경하세요 */
+    font-weight: bold;
+}
+
+.letterUnderLine2{
+    text-decoration: underline;
+    text-decoration-thickness: 10px;
+    text-decoration-color: red; /* 원하는 색상으로 변경하세요 */
+    font-weight: bold;
+}
+
+.letterUnderLine3{
+    text-decoration: underline;
+    text-decoration-thickness: 15px;
+    text-decoration-color: purple; /* 원하는 색상으로 변경하세요 */
+    font-weight: bold;
+}
+
+.mainContent2{
+    color: white;
+    margin-top: 250px;
+    margin-left: 25%;
+    font-weight: 900;
+}
+
+.mainContent2svg{
+    width : 500px;
+    height: auto;
+    margin-top : 150px;
+    margin-left : 270px;
+    float:left;
+}
+
+.mainContent2comment1{
+    font-size :50px;
+    margin-left:40px;
+    position: relative;
+    top : -65px;
+}
+
+.mainContent2comment2{
+    font-size : 30px;
+    margin-left : 380px;
+    position: relative;
+    top : -40px;
+}
+
+.line1{
+    border: none;
+    border-top: 6px solid white; /* 선의 색상과 두께를 원하는 대로 수정 */
+    width: 40%; /* 원하는 가로 길이로 수정 */
+    position: relative;
+    top : -90px;
+    margin-left : 380px; /* 선의 위아래 여백 및 가운데 정렬을 원하는 대로 수정 */
+}
+
+.mainContent3{
+    color: white;
+    margin-top: 250px;
+    margin-left: 25%;
+    font-weight: 900;
+}
+
+.line2{
+    border: none;
+    border-top: 6px solid white; /* 선의 색상과 두께를 원하는 대로 수정 */
+    width: 40%; /* 원하는 가로 길이로 수정 */
+    position: relative;
+    top : -90px;
+    margin-left : -5%;
+}
+
+.mainContent3svg{
+    width : 400px;
+    height: auto;
+    margin-top : 150px;
+    margin-right: 400px;
+    float:right;
+}
+
+.mainContent3comment1{
+    font-size :50px;
+    margin-left:30px;
+    position: relative;
+    top : -65px;
+}
+
+.mainContent3comment2{
+    font-size : 30px;
+    margin-right: 500px;
+    position: relative;
+    top : -40px;
+    text-align: right;
+    width: 450px;
+}
+
+.mainContent3Contect1Content{
+    background-color: #2049d4;
+    margin-left : 50px;
+    width: 180px;
+    height: 45px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display : flex;
+    float : left;
+    
+}
+
+.mainContent3Contect1ContentLink1{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size : 35px;
+    text-align: center;
+}
+
+.mainContent3contect2Content{
+    background-color: #ff0000;
+    margin-left : 270px;
+    width: 180px;
+    height: 45px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display : flex;
+}
+
+.mainContent3Contect2ContentLink2{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size : 35px;
+    text-align: center;
+}   
+
+.mainContent4{
+    color: white;
+    margin-top: 250px;
+    margin-left: 25%;
+    font-weight: 900;
+}
+
+.mainContent4comment1{
+    font-size : 50px;
+    margin-left : 20px;
+    margin-bottom : 50px;
+}
+
+.letter2Underline1
+{
+    text-decoration: underline;
+    text-decoration-thickness: 15px;
+    text-decoration-color: purple; /* 원하는 색상으로 변경하세요 */
+    font-weight: bold;
+}
+
+.mainContent4comment2{
+    font-size : 40px;
+    font-weight : 1500;
+}
+
+.mainContent4comment3{
+    font-size : 27px;
+    font-weight :lighter;
+    margin-bottom : 22px;
+}
+
+.mainContent4comment4{
+    font-size : 40px;
+    font-weight : 1500;
+}
+
+.mainContent4comment5{
+    font-size : 27px;
+    font-weight :lighter;
+    margin-bottom : 22px;
+}
+
+.mainContent4comment6{
+    font-size : 40px;
+    font-weight : 1500;
+}
+
+.letter2Underline2{
+    text-decoration: underline;
+    text-decoration-thickness: 10px;
+    text-decoration-color: red; /* 원하는 색상으로 변경하세요 */
+    font-weight: bold;
+}
+
+.mainContent4comment7{
+    font-size : 27px;
+    font-weight :lighter;
+}
+
+.mainContent4comment8{
+    font-size : 27px;
+    font-weight :lighter;
+}
+
+.mainContent4comment9{
+    font-size : 27px;
+    font-weight :lighter;
+    margin-bottom : 100px;
+}
+
+.mainContent4svg{
+    width : 100%;
+    height : 100%;
 }
