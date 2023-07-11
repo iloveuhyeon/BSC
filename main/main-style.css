@@ -1,50 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
 
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+}
+
 a {
     text-decoration: none;
     color: black;
 }
 
 .background{
-    margin: 0;
     background-image: url(imgdir/배경.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-size : cover;
     position: relative;
     font-family: 'Inter', sans-serif;
 }
 
 .topBar{
-    width: cover;
-    height: 95px;
+    position: fixed;
+    top: 0;
+    height: 75px;
     background-color: white;
+    width: 100vw;
+    z-index: 9999;
+    
 }
 
 .topBarLogo{
     float: left;
-    margin-top: 11px;
-    margin-left: 170px;
-    width: 70px;
+    margin-top: 5px;
+    margin-left: 210px;
+    width: 65px;
     margin-right: 10px;
 }
 
 .topBarOp{
-    font-size: 20px;    
+    font-size: 18px;    
     margin-right: 10%;
-    padding-top: 33px;
+    padding-top: 25px;
+    font-weight : bold;
 }
 
 .topBarContect{
     
     float: right;
+    margin-right :10px;
     color: black;
     font-weight: bold;
+    font-size : 18px;
 }
 
 .topBarInfo{
     float: right;
     color: black;
     font-weight: bold;
+    font-size : 18px;
     margin-right: 5%;
 }
 
@@ -60,45 +76,46 @@ a {
 .titleDIV{
     
     margin-top: 25%;
-    margin-left: 20px;
+    margin-left: 50px;  
     font-weight: bolder;
 }
 
 .mainContentLine1{
 
-    font-size: 57px;
+    font-size: 40px;
     color: white;
+    margin-top : 500px;
 }
 
 .mainContentLine2{
 
     margin-top: -10px;
-    font-size: 97px;
+    font-size: 87px;
     color: white;
 }
 
 .mainContentLine3{
 
     margin-top: -10px;
-    font-size: 97px;
+    font-size: 87px;
     color: white;
 }
 
 .mainContentLine4{
     margin-top: -5px;
-    font-size: 41px;
+    font-size: 37px;
     color: white;
 }
 
 .mainConTentContect{
     background-color: #5a2ed1;
-    margin-left : 50px;
-    width: 550px;
-    height: 90px;
+    margin-left : 30px;
+    margin-top : 20px;
+    width: 500px;
+    height: 70px;
     border-radius: 5px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+    cursor:pointer;
+    border:none;
 }
 .mainContentContectContentLink{
     color: black;
@@ -108,28 +125,29 @@ a {
     text-align: center;
 }
 .mainContentcontectContentLink:hover {
-    text-decoration: underline;
+    text-decoration:underline;
   }
 
 .mainConTentContectContent{
     font-size: 35px;
     text-align: center;
-    margin-top: 30px;
-    padding-top: 23px;
-    font-weight: bolder;
+    font-weight: bolde;
 }
 
 .mainContent1{
     color: white;
     margin-top: 250px;
-    margin-left: 25%;
+    margin-left: 400px;
     font-weight: 900;
+    
 
 }
 
 .mainContent1comment1{
     font-size: 60px;
+    position: relative; 
 }
+
 
 .mainContent1comment2{
     font-size: 30px;
@@ -137,23 +155,17 @@ a {
 }
 
 .letterUnderLine1{
-    text-decoration: underline;
-    text-decoration-thickness: 10px;
-    text-decoration-color: blue; /* 원하는 색상으로 변경하세요 */
     font-weight: bold;
+    z-index: 10px;
 }
 
 .letterUnderLine2{
-    text-decoration: underline;
-    text-decoration-thickness: 10px;
-    text-decoration-color: red; /* 원하는 색상으로 변경하세요 */
+    z-index : 10px;
     font-weight: bold;
 }
 
 .letterUnderLine3{
-    text-decoration: underline;
-    text-decoration-thickness: 15px;
-    text-decoration-color: purple; /* 원하는 색상으로 변경하세요 */
+    z-index: 10px;
     font-weight: bold;
 }
 
@@ -167,7 +179,7 @@ a {
 .mainContent2svg{
     width : 500px;
     height: auto;
-    margin-top : 150px;
+    margin-top:-100px;
     margin-left : 270px;
     float:left;
 }
@@ -214,21 +226,21 @@ a {
 .mainContent3svg{
     width : 400px;
     height: auto;
-    margin-top : 150px;
-    margin-right: 400px;
+    margin-top:-80px;
+    margin-right: 23%;
     float:right;
 }
 
 .mainContent3comment1{
     font-size :50px;
-    margin-left:30px;
+    margin-left:15px;
     position: relative;
     top : -65px;
 }
 
 .mainContent3comment2{
     font-size : 30px;
-    margin-right: 500px;
+    margin-left:-20px;
     position: relative;
     top : -40px;
     text-align: right;
@@ -237,48 +249,61 @@ a {
 
 .mainContent3Contect1Content{
     background-color: #2049d4;
-    margin-left : 50px;
-    width: 180px;
-    height: 45px;
+    margin-left : 10px;
+    width: 200px;
+    height: 50px;
+    border-radius:5px;
     text-align: center;
     align-items: center;
     justify-content: center;
     display : flex;
     float : left;
-    
+    cursor:pointer;
+    border:none;
+}
+
+.mainContent3Contect1Content:hover{
+    text-decoration: underline;
 }
 
 .mainContent3Contect1ContentLink1{
     color: black;
     text-decoration: none;
-    font-weight: bold;
-    font-size : 35px;
+    font-weight:900;
+    font-size : 20px;
     text-align: center;
 }
 
 .mainContent3contect2Content{
-    background-color: #ff0000;
-    margin-left : 270px;
-    width: 180px;
-    height: 45px;
+    background-color: #b1052d;
+    margin-left : 230px;
+    width: 200px;
+    height: 50px;
+    border-radius:5px;
     text-align: center;
     align-items: center;
     justify-content: center;
     display : flex;
+    cursor:pointer;
+    border:none;
 }
 
-.mainContent3Contect2ContentLink2{
+.mainContent3Contect1Content:hover{
+    text-decoration: underline;
+}
+
+.mainContent3ContectContentLink2{
     color: black;
     text-decoration: none;
-    font-weight: bold;
-    font-size : 35px;
+    font-weight: 900;
+    font-size : 20px;
     text-align: center;
 }   
 
 .mainContent4{
     color: white;
-    margin-top: 250px;
-    margin-left: 25%;
+    margin-top: 100px;
+    margin-left: 400px;
     font-weight: 900;
 }
 
@@ -290,10 +315,8 @@ a {
 
 .letter2Underline1
 {
-    text-decoration: underline;
-    text-decoration-thickness: 15px;
-    text-decoration-color: purple; /* 원하는 색상으로 변경하세요 */
     font-weight: bold;
+    z-index: 10px;
 }
 
 .mainContent4comment2{
@@ -343,10 +366,95 @@ a {
 .mainContent4comment9{
     font-size : 27px;
     font-weight :lighter;
-    margin-bottom : 100px;
+    margin-bottom : 120px;
 }
 
-.mainContent4svg{
-    width : 100%;
-    height : 100%;
+
+
+
+.BlueUnderLine {
+    position: absolute;
+    display: inline-block;
+    border: 8px #2049D4 solid;
+    border-radius: 4px;
+    height: 0px;
+    width: 160px;
+    top: 60px;
+    left: 0;
+    z-index: -1;
+}
+
+.RedUnderLine{
+    position: absolute;
+    display: inline-block;
+    border: 8px #f00 solid;
+    border-radius: 4px;
+    margin-left:820px;
+    height: 0px;
+    width: 100px;
+    top: 60px;
+    left: 0;
+    z-index: -1;
+}
+
+.PurpleUnderLine{
+    position: absolute;
+    display: inline-block;
+    border: 18px #710080  solid;
+    border-radius: 10px 2px 10px 2px / 10px 2px 10px 2px;
+    margin-left:120px;
+    height: 0px;
+    width: 110px;
+    top: 125px;
+    left: 0;
+    z-index: -1;
+}
+
+.BSCunderBar{
+    background:white;
+    padding : 20px;
+    font-weight : bold;
+}
+.BSCunderBarimage{
+    width: 100px;
+    height: 100px;
+    margin-left:450px;
+    margin-top:30px;
+    vertical-align: middle;
+    position:relative;
+    float :left;
+    margin-right:50px;
+}
+.BSCunderBarcomment2{
+    margin-top:10px;
+    font-size:25px;
+}
+.BSCunderBarcomment3{
+    margin-top : 20px;
+    font-size:15px;
+    margin-right:30px;
+    float:left;
+}
+.BSCunderBarcomment4{
+    margin-top : 20px;
+    font-size:15px;
+    
+}
+.BSCunderBarcomment5{
+vertical-align: bottom;
+text-align: right;
+margin-right:15%;
+}
+
+.letter2underbar{
+    position: absolute;
+    display: inline-block;
+    border: 24px #5e18a4 solid;
+    border-radius: 10px 2px 10px 2px / 10px 2px 10px 2px;
+    height: 0px;
+    width: 100px;
+    top: 1970px;
+    margin-left:450px;
+    left: 0;
+    z-index: -1;
 }
