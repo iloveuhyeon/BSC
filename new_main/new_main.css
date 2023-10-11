@@ -1,0 +1,178 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+button {
+    margin: 20px;
+}
+
+.custom-btn {
+    color: black;
+    border-radius: 2px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-style: bolder;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+}
+
+.background{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/main_imgdir/배경.svg);
+}
+.topbar{
+    background-color: rgba(0, 0, 0, 0.5);
+    height:7.5%;
+    width:100%;
+    position: sticky;
+    top : 0;
+}
+.topbarOp{
+    font-size: 18px;    
+    margin-right: 10%;
+    padding-top: 25px;
+}
+.topbar_logo{
+    width:3.8%; 
+    height: auto;
+    margin-left:12%;
+    margin-top:-1%
+}
+.topbarContect{
+    float: right;
+    margin-right:-3%;
+}
+.topbarInfo{
+    float:right;
+    margin-right:3%;
+}
+
+.topbarVPN{
+    float: right;
+    margin-right:3%;
+}
+.titleDIV{
+    color: white;
+    margin-top:26%;
+    margin-left:1%;
+    font-weight: 600;
+    line-height: 600%;
+}
+
+.titleSentence1{
+    font-size:370%;
+}
+.titleSentence2{
+    font-size:550%;
+    letter-spacing: 4px;
+}
+.titleSentence3{
+    font-size:550%;
+    letter-spacing: 4px;
+}
+.titleSentence4{
+    font-size: 200%;
+    margin-top:-0.5%;
+}
+.btn-5 {
+    width: 25%;
+    height: auto q q;
+    line-height: 220%;  
+    padding: 0;
+    border: none;
+    background: rgb(101, 40, 255);
+    font-size: 230%;
+    margin-left: 2%;
+    margin-top: -1%;
+  }
+  .btn-5:hover {
+    color: #ffffff;
+    background: transparent;
+     box-shadow:none;
+  }
+  .btn-5:before,
+  .btn-5:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:4px;
+    width:0;
+    background: #ffffff;
+    transition:400ms ease all;
+  }
+  .btn-5:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .btn-5:hover:before,
+  .btn-5:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+.mainContent1{
+    text-align: center;
+    color:white;
+    font-weight:900;
+    margin-top:8%;
+    margin-left:20%;
+    margin-right:20%;
+}
+.maincontent1comment{
+    height:auto;
+    width: 100%;
+}
+
+.mainContent2{
+    text-align: center;
+    color:white;
+    font-weight:900;
+    margin-top:8%;
+    margin-left:20%;
+    margin-right:20%;
+}
+.maincontent2comment{
+    height:auto;
+    width:100%;
+}
+.mainContent3{
+    text-align: center;
+    color:white;
+    font-weight:900;
+    margin-top:8%;
+    margin-left:20%;
+    margin-right:20%;
+}
+.maincontent3comment{
+    height:auto;
+    width:100%;
+}
+.mainContent4{
+    text-align: center;
+    color:white;
+    font-weight:900;
+    margin-top:8%;
+    margin-left:20%;
+    margin-right:20%;
+}
+.maincontent4comment{
+    height:auto;
+    width:100%;
+}
+.underbarimg{
+    height:auto;
+    width:100%;
+}
