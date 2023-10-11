@@ -34,7 +34,7 @@ button {
 .topbar{
     background-color: rgba(0, 0, 0, 0.5);
     height:7.5%;
-    width:100%;
+    width: 100%;
     position: sticky;
     top : 0;
 }
@@ -42,11 +42,11 @@ button {
     font-size: 18px;    
     margin-right: 10%;
     padding-top: 25px;
+    margin-left:10%;
 }
 .topbar_logo{
     width:3.8%; 
     height: auto;
-    margin-left:12%;
     margin-top:-1%
 }
 .topbarContect{
