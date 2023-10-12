@@ -12,18 +12,18 @@ button {
 }
 
 .custom-btn {
-    color: black;
-    border-radius: 2px;
-    padding: 10px 25px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 600;
-    font-style: bolder;
-    background: transparent;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-    outline: none;
+  color: black;
+  border-radius: 2px;
+  padding: 2vw 5vw;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  font-style: bolder;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
 }
 
 .background{
@@ -64,10 +64,10 @@ button {
 }
 .titleDIV{
     color: white;
-    margin-top:26%;
+    margin-top:45vh;
     font-weight: 600;
     line-height: 600%;
-    margin-left: 1%;
+    margin-left: 2vw;
 }
 
 .titleSentence1{
@@ -83,18 +83,18 @@ button {
 }
 .titleSentence4{
     font-size: 200%;
-    margin-top:-0.5%;
+    margin-top:-0.5vh;
 }
 .btn-5 {
-    width: 25%;
-    height: auto;
-    line-height: 220%;  
-    padding: 0;
-    border: none;
-    background: rgb(101, 40, 255);
-    font-size: 230%;
-    margin-left: 2%;
-    margin-top: -1%;
+  width: 30vw; /* 뷰포트 너비의 25% */
+  height: 10vh;
+  line-height: 220%;
+  padding: 0;
+  border: none;
+  background: rgb(101, 40, 255);
+  font-size: 2.3vw; /* 뷰포트 너비의 2.3% */
+  margin-left: 0vw; /* 뷰포트 너비의 2% */
+  margin-top: 2vh; /* 뷰포트 높이의 1% */
   }
   .btn-5:hover {
     color: #ffffff;
@@ -153,16 +153,17 @@ button {
     width:100%;
 }
 .btn-1 {
-    position: absolute;
-    width: 25vh;
-    height: auto ;
-    line-height: 250%;  
-    padding: 0;
-    border: none;
-    background: rgb(246, 69, 69);
-    font-size: 180%;
-    margin-left: -71%;
-    margin-top: 30%;
+  position: absolute;
+  width: 30vw;
+  height: 10vh;
+  line-height: 250%;
+  padding: 0;
+  border: none;
+  background: rgb(246, 69, 69);
+  
+  font-size: 1.9vw; 
+  margin-left: -58vw; 
+  margin-top: 35vh; 
   }
   .btn-1:hover {
     color: #ffffff;
@@ -193,15 +194,15 @@ button {
   }
   .btn-2 {
     position: absolute;
-    width: 25vh;
-    height: auto;
-    line-height: 250%;  
+    width: 30vw; /* 뷰포트 너비의 28% */
+    height: 10vh;
+    line-height: 250%;
     padding: 0;
     border: none;
     background: rgb(82, 58, 232);
-    font-size: 180%;
-    margin-left: -97%;
-    margin-top: 30%;
+    font-size: 1.9vw; /* 뷰포트 너비의 3% */
+    margin-left: -30vw; /* 뷰포트 너비의 14% */
+    margin-top: 33vh; /* 뷰포트 높이의 5% */
   }
   .btn-2:hover {
     color: #ffffff;
