@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BSC</title>
+    <link rel="stylesheet" href="content2.css">
+</head>
+<body class="background">
+    <header class="topbar">
+        <div class="topbarOp">
+            <a href="/new/new_main/new_main.html">
+                <img src="/main_imgdir/로고.svg" class="topbar_logo">
+            </a>
+            <div class="topbarContect">
+                <a href="/new/new_main/new_main.html">문의하기 </a>
+            </div>
+            <div class="topbarInfo">
+                <a href="/new/new_more_info/new_info.html">알아보기/서비스</a>
+            </div>
+            <div class="topbarVPN">
+                <a href="/new/new_more_info/new_info.html">VPN</a>
+            </div>
+        </div>
+    </header>
+    <div class="a" name="a">
+        양식을 기입을 해 주셔야 저희가 도움을 줄 수 있습니다.
+    </div>
+    <div class="dust">
+        <div class="dust-class">
+            <label for="itemname"><span>* </span>업체 또는 고객명</label>
+            <input name="name" type="text" class="txt-input" id="itemname" placeholder="업체 또는 고객명을 입력해주세요." value="" required="required">
+        </div>
+        <div class="dust-class">
+            <label for="itempw"><span>* </span>연락처</label>
+            <input name="tel"type="text" class="txt-input" id="itempw" pattern="[0-2]{3}+[0-9]{4}+[0-9]{4};" placeholder="연락처를 입력해주세요.  ex) 01012345678" value="" required="required">
+        </div>
+      </div>
+
+      <div class="products">
+        <div class="product_comment"><span>* </span>신청분야</div>
+            <select class="product"name ="product" required="required">
+                <option value="">(선택)</option>
+                <option value="one">1.VPN</option>
+                <option value="two">2.취약점 분석</option>
+                <option value="three">3.컨설팅</option>
+            </select>
+        </div>
+      </div>
+</body>
+</html>

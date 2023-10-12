@@ -1,0 +1,158 @@
+body{
+    color:white;
+    padding :0;
+    margin : 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.background{
+    background-image: url(/content_imgdir/배경.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.custom-btn {
+    color: black;
+    border-radius: 2px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-style: bolder;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+}
+.topbar{
+    background-color: rgba(0, 0, 0, 0.5);
+    height:7.5%;
+    width: 100%;
+    position: sticky;
+    top : 0;
+}
+.topbarOp{
+    font-size: 18px;    
+    margin-right: 10%;
+    padding-top: 25px;
+    margin-left:10%;
+}
+.topbar_logo{
+    width:3.8%; 
+    height: auto;
+    margin-top:-1%
+}
+.topbarContect{
+    float: right;
+    margin-right:-3%;
+}
+.topbarInfo{
+    float:right;
+    margin-right:3%;
+}
+
+.topbarVPN{
+    float: right;
+    margin-right:3%;
+}
+.dust{
+    margin-top:5%
+}
+.a{
+    font-size:220%;
+    text-align: center;
+    font-weight: 600;
+    margin-top:5%;
+}
+
+input{
+    font-family: 'Noto Sans KR','Noto Sans Korean', "Nanum Gothic", sans-serif !important;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    border: 0;
+    outline: none;
+    font-size: 10px;
+    background-color: black;
+    color:white;
+}
+input::placeholder{
+  color: #d9d9d9
+}
+.dust-class{
+  width: 50%; 
+  margin: 20px auto;
+  position: relative;
+}
+.dust-class label{
+  display: inline-block;
+  position: absolute;
+  top: -5px;
+  left: 14px;
+  padding: 10px;
+  background: black;
+  font-size: 14px;
+  color: #888;
+  font-weight: bold;
+}
+span{
+  color: #da4841;
+  vertical-align: -1px;
+
+}
+.dust-class input{
+    width: 100%;
+    border: 1px solid #dddddd !important;
+    font-size: 1rem;
+    line-height: 2.5;
+    letter-spacing: -0.04rem;
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 12px;
+}
+.dust-class input::placeholder{
+    color:rgba(255, 255, 255, 0.5);
+}
+.products{
+    margin:20px auto;
+    width: auto;
+    position:relative;
+}
+.product_comment{
+    display:inline-block;
+    position: absolute;
+    top:-19px;
+    left:14px;
+    padding :10px;
+    background: black;
+    font-family: 'Noto Sans KR','Noto Sans Korean', "Nanum Gothic", sans-serif !important;
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 100%;
+}
+.product{
+    -o-appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 70.5%;
+    height: 70px;
+    background: url('https://freepikpsd.com/media/2019/10/down-arrow-icon-png-7-Transparent-Images.png') calc(100% - 5px) center no-repeat;
+    background-size: 20px;
+    padding: 20px 30px 20px 10px;
+    border-radius: 8px;
+    outline: 0 none;
+    color:rgba(255, 255, 255, 0.5);
+}
+.product option{
+    background: black;
+    color: #fff;
+    padding: 3px 0;
+}
+.product::-ms-expand { 
+	display: none;
+}
+option{
+    font-size: 1rem;
+}
