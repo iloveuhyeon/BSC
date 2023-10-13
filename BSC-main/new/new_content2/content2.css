@@ -1,0 +1,221 @@
+body{
+    color:white;
+    padding :0;
+    margin : 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.background{
+    background-image: url(/content_imgdir/배경.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.custom-btn {
+    color: black;
+    border-radius: 2px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-style: bolder;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+}
+.topbar{
+    background-color: rgba(0, 0, 0, 0.5);
+    height:7.5%;
+    width: 100%;
+    position: sticky;
+    top : 0;
+}
+.topbarOp{
+    font-size: 18px;    
+    margin-right: 10%;
+    padding-top: 25px;
+    margin-left:10%;
+}
+.topbar_logo{
+    width:3.8%; 
+    height: auto;
+    margin-top:-1%
+}
+.topbarContect{
+    float: right;
+    margin-right:-3%;
+}
+.topbarInfo{
+    float:right;
+    margin-right:3%;
+}
+
+.topbarVPN{
+    float: right;
+    margin-right:3%;
+}
+.dust{
+    margin-top:5%
+}
+.a{
+    font-size:220%;
+    text-align: center;
+    font-weight: 600;
+    margin-top:5%;
+}
+
+input{
+    font-family: 'Noto Sans KR','Noto Sans Korean', "Nanum Gothic", sans-serif !important;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    border: 0;
+    outline: none;
+    font-size: 10px;
+    background-color: black;
+    color:white;
+}
+input::placeholder{
+  color: #d9d9d9
+}
+.dust-class{
+  width: 50%; 
+  margin: 20px auto;
+  position: relative;
+}
+.dust-class label{
+  display: inline-block;
+  position: absolute;
+  top: -5px;
+  left: 14px;
+  padding: 10px;
+  background: black;
+  font-size: 14px;
+  color: #888;
+  font-weight: bold;
+}
+.span{
+  color: #da4841;
+  vertical-align: -1px;
+
+}
+.dust-class input{
+    width: 100%;
+    border: 1px solid #dddddd !important;
+    font-size: 1rem;
+    line-height: 2.5;
+    letter-spacing: -0.04rem;
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 12px;
+}
+.dust-class input::placeholder{
+    color:rgba(255, 255, 255, 0.5);
+}
+.products{
+    width: 50%; 
+    margin: 20px auto;
+    position: relative; 
+}
+.product_comment{
+    display:inline-block;
+    position: absolute;
+    top:-19px;
+    left:14px;
+    padding :10px;
+    background: black;
+    font-family: 'Noto Sans KR','Noto Sans Korean', "Nanum Gothic", sans-serif !important;
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 100%;
+}
+.product{
+    -o-appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url('https://freepikpsd.com/media/2019/10/down-arrow-icon-png-7-Transparent-Images.png') calc(100% - 5px) center no-repeat;
+    width: 103.3%;
+    border: 1px solid #dddddd !important;
+    font-size: 1rem;
+    line-height: 2.5;
+    letter-spacing: -0.04rem;
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 12px;
+    color:rgba(255, 255, 255, 0.5);
+}
+.product option{
+    background: black;
+    color: #fff;
+    padding: 3px 0;
+}
+.product::-ms-expand { 
+	display: none;
+}
+option{
+    font-size: 1rem;
+}
+.con{
+
+}
+.content{
+    overflow: hidden;
+    resize:none;
+    width: 100%;
+    font-size: 18px;
+    height: 100px;
+    border-radius: 8px;
+    background-color: black;
+    border: 1px white solid; 
+    color:white;
+    padding:10px;
+    padding-top:40px;
+    font-family: 'neon';
+    src: url('../srcs/fonts/NeonPlanetDisplay.ttf') format('truetype');
+    padding-left:15px;
+    padding-right:15px;
+}
+.next{
+    margin:auto;
+    width:15%;
+    margin-top:5%;
+}
+.btn-1 {
+    position: absolute;
+    width: 15%;
+    line-height: 250%;  
+    padding: 0;
+    border: none;
+    background-color: rgb(101, 40, 255);
+    font-size: 180%;
+  }
+  .btn-1:hover {
+    color: #ffffff;
+    background: transparent;
+     box-shadow:none;
+  }
+  .btn-1:before,
+  .btn-1:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:4px;
+    width:0;
+    background: #ffffff;
+    transition:400ms ease all;
+  }
+  .btn-1:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .btn-1:hover:before,
+  .btn-1:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
